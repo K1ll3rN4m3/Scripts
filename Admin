@@ -17,6 +17,10 @@ AdminSection:CreateButton("ESP (Admin Esp)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Esp"))()
 end)
 
+AdminSection:CreateButton("Chat Hax (Fake Chat)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HACKER21078/Security-Hacker-Chat-Hax-V2/main/Security%20Hacker%20Chat%20Hax%20V2"))()
+end)
+
 AdminSection:CreateButton("Infinite Yield (Admin Panel V1)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
 end)
