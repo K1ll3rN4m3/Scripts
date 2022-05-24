@@ -57,6 +57,9 @@ AdminSection:CreateButton("Animation Changer", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Animation"))()
 end)
 
+AdminSection:CreateButton("Fly Vehicle", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/pGk2ijMy"))()
+
 -- Hubs
 
 HubSection:CreateButton("MoonHub", function()
