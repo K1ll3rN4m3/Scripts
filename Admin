@@ -59,6 +59,7 @@ end)
 
 AdminSection:CreateButton("Fly Vehicle", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/pGk2ijMy"))()
+end)
 
 -- Hubs
 
