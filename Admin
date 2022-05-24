@@ -17,14 +17,6 @@ AdminSection:CreateButton("ESP (Admin Esp)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Esp"))()
 end)
 
-AdminSection:CreateButton("FE Checker (Checks if FE), function()
-    if game.Workspace.FilteringEnabled == true then
-print ("FE, no fun here")
-else
-print ("Non FE, go all out")
-   end
-end)
-
 AdminSection:CreateButton("Infinite Yield (Admin Panel V1)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
 end)
