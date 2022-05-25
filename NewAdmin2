@@ -16,6 +16,7 @@ Player.Chatted:connect(function(cht)
         
         print("------------------Latest Updates------------------")
         print("[+] New UI")
+        print("[+] Walk On Wall")
         
         print("------------------More Soon!------------------")
     end
