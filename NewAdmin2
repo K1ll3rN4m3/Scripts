@@ -1,0 +1,34 @@
+local Player = game.Players.LocalPlayer
+
+Player.Chatted:connect(function(cht)
+    if cht:match(";showadmin") then
+        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/NewAdmin", true))();
+    elseif cht:match("/console") then
+        
+        print("------------------Admin Console------------------")
+        print("[+] ;showadmin (Show Admin Ui)")
+        
+        print("------------------Creator--------------------")
+        print("[-] Creator: Korusaki.")
+        print("[-] Discord: Coming Soon...")
+        print("[-] Youtube: Official DarkAngel")
+        
+        print("------------------Latest Updates------------------")
+        print("[+] New UI")
+        
+        print("------------------More Soon!------------------")
+    end
+end)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Made By Korusaki.";
+    Text = "type /console in chat to view commands";
+    Duration = 20;
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Follow Korusaki On Tiktok";
+    Text = "@tph_auraph";
+    Duration = 20;
+})
