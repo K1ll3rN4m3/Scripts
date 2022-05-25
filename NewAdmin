@@ -55,6 +55,10 @@ tab1.newButton("Animation Changer", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Animation"))();
 end)
 
+tab1.newButton("Walk On Wall", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))();
+end)
+
 ---------------------------------------------
 
 tab2.newButton("MoonHub", function()
