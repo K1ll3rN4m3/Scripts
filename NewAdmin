@@ -59,7 +59,7 @@ tab1.newButton("Walk On Wall", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))();
 end)
 
-tab1.newButton("Fake Chat", function()
+tab1.newButton("Fake Chat (Like Chat Hax)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))();
 end)
 
