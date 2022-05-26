@@ -63,6 +63,10 @@ tab1.newButton("Fake Chat (Like Chat Hax)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))();
 end)
 
+tab1.newButton("Player Remover (Not FE)", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Kud3hXHf'))();
+end)
+
 ---------------------------------------------
 
 tab2.newButton("MoonHub", function()
