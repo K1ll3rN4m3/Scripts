@@ -18,6 +18,7 @@ Player.Chatted:connect(function(cht)
         print("[+] New UI")
         print("[+] Walk On Wall")
         print("[+] Fake Chat")
+        print("[+] Player Remover")
         
         print("------------------More Soon!------------------")
     end
